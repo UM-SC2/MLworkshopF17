@@ -1,3 +1,6 @@
 [submodule "session01/stanford_dl_ex"]
 	path = session01/stanford_dl_ex
 	url = https://github.com/amaas/stanford_dl_ex.git
+[submodule "session02/awesome-public-datasets"]
+	path = session02/awesome-public-datasets
+	url = https://github.com/caesar0301/awesome-public-datasets.git
