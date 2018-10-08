@@ -47,6 +47,8 @@ ax1[1].set_xlabel('Picture #')
 ax1[0].set_ylabel('Picture Label')
 ax1[1].set_ylabel('Picture Label')
 
+fig1.savefig("pictoralSummary-digitDetection.png")
+
 ## Incorrect Guess Histogram
 # Show a figure indicating the true digit compared to how many errors it made
 # and what those erros were (restatement of a confusion matrix).
@@ -75,6 +77,8 @@ ax2.set_ylabel("Incorrect Guesses")
 ax2.legend(loc='best')
 ax2.set_title("Incorrect Guess Histogram")
 
+fig2.savefig("incorrectGuessHistogram-digitDetection.png")
+
 ## Confusion Matrix
 # A confusion matrix shows a direct comparison between your guesses and the actual
 # labels. Scikit-learn can do this natively and can be visualized with matplotlib.
@@ -91,4 +95,4 @@ ax3.set_xlabel("Predicted Number")
 ax3.set_ylabel("Actual Number")
 ax3.set_title("Normalized Confusion Matrix")
 
-plt.show()
+fig3.savefig("normedCnfMatrix-digitDetection.png")

@@ -48,4 +48,4 @@ ax.set_xlabel("Predicted Number")
 ax.set_ylabel("Actual Number")
 ax.set_title("Normalized Confusion Matrix")
 
-fig.savefig("cnfMatrix-spambase.png")
+fig.savefig("normedCnfMatrix-spambase.png")
